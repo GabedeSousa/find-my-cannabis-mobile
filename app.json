@@ -1,0 +1,12 @@
+{
+  "name": "find_my_cannabis_2",
+  "displayName": "find_my_cannabis_2",
+  "expo": {
+    "name": "find_my_cannabis_2",
+    "slug": "find_my_cannabis_2",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
