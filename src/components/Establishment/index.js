@@ -34,7 +34,7 @@ return (
                 (establishment.photos) ?
             <Image style={styles.photo}
                     source={
-                { uri: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=${establishment.photos[0].photo_reference}&sensor=false&key=AIzaSyAvps_o-Bruy3ZsJIgvnSNSrYiHgKQNP_I` }} alt="Store perfil" />
+                { uri: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=${establishment.photos[0].photo_reference}&sensor=false&key=<sua_key>` }} alt="Store perfil" />
             :
             <Image style={styles.photo} source={require('../../images/bart.jpeg')} />
         }
